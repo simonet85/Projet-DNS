@@ -1,6 +1,47 @@
 body {
     font-family:Arial, Sans-Serif;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
+/*
+* Navigation
+*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #1d2327;
+    color: #fff;
+}
+
+.nav-left .nav__ul-left, .nav-right .nav__ul-right{
+    list-style: none;
+}
+
+.nav__ul-right .nav__li-right{
+    display: inline;
+    margin-right: 10px;
+   
+}
+
+.nav__ul-right .nav__li-right{
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav__link-left, .nav__link-right{
+    color: #fff;
+    
+}
+.nav__link-left:hover, .nav__link-right:hover{
+    color: #f70;
+    text-decoration: none;
+}
+
+.dash__title{
+    text-align: center;
+}
+
 .clearfix:before, .clearfix:after{
     content: "";
     display: table;
